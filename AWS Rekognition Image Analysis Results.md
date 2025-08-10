@@ -106,6 +106,20 @@ The image appears to show a crowded urban scene with multiple people. AWS Rekogn
 - **City environment** with some architectural elements
 - Possible **night life** context suggested
 
+#### Understanding Lower Confidence Scores
+These detections have lower confidence scores, which means:
+
+- **Walking (73%)**: The AI can see movement or posture suggesting people are walking, but it's less certain due to image quality, angle, or partial occlusion of people
+- **Architecture/Building/Cityscape (59.4%)**: While the urban environment is clear, specific architectural details may be blurred, in the background, or partially visible
+- **Night Life (56.5%)**: This contextual label suggests the scene might be from an evening/night setting, but the AI isn't completely certain - it could be daytime with shadows or indoor lighting
+- **Pedestrian (60.3%)**: Lower than "Person" because it requires additional context about the setting and movement patterns
+
+**Why confidence varies:**
+- **Image quality**: Blur, lighting, or resolution affects accuracy
+- **Partial visibility**: Objects or people partially hidden or cut off
+- **Context complexity**: Busy scenes with overlapping elements are harder to analyze
+- **Ambiguous features**: Some characteristics could match multiple categories
+
 ## Technical Details
 
 ### API Request
