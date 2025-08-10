@@ -178,28 +178,30 @@ Use http://127.0.0.1:8888/?token=... URL for best compatibility.
 
 
 ### Issue 4: Need to run installations but terminal is occupied by Jupyter
+
 Keep two terminals open:
 
-One running Jupyter server
+- One running Jupyter server
 
-One for activating environment and installing packages
+- One for activating environment and installing packages
 
-Activate the same virtual environment in both terminals.
+- Activate the same virtual environment in both terminals.
 
-Best Practices and Tips
-Always create and activate a virtual environment to isolate dependencies.
+### Best Practices and Tips
 
-Use fixed random_state in models for reproducibility.
+- Always create and activate a virtual environment to isolate dependencies.
 
-Restart notebook kernel after installing new packages.
+- Use fixed random_state in models for reproducibility.
 
-Use clear and descriptive variable names and comments to make the code maintainable.
+- Restart notebook kernel after installing new packages.
 
-Consider using JupyterLab (jupyter lab) for a richer interface.
+- Use clear and descriptive variable names and comments to make the code maintainable.
 
-For large datasets, explore model tuning and cross-validation for better accuracy.
+- Consider using JupyterLab (jupyter lab) for a richer interface.
+
+- For large datasets, explore model tuning and cross-validation for better accuracy.
 
 ### Summary
 This guide walks you through setting up a Python data science environment on Ubuntu WSL, running Jupyter notebooks, installing packages, writing and running a Random Forest regression model, visualizing data, and troubleshooting common issues.
 
-If you follow these steps carefully, even without prior Python or Jupyter experience, you will be able to replicate and extend this project seamlessly.
+***If you follow these steps carefully, even without prior Python or Jupyter experience, you will be able to replicate and extend this project seamlessly.***
