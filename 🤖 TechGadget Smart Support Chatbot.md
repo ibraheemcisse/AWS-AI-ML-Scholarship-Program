@@ -3,7 +3,7 @@
 An AI-powered customer support chatbot built with Python, featuring intelligent response matching, sentiment analysis, and context awareness. Developed as part of the AWS AI/ML Scholarship Program.
 
 ![Chatbot Demo](./images/chat1.PNG)
-*Screenshot of the chatbot in action*
+*Screenshot of the code in jupyter notebook*
 
 ## ✨ Features
 
