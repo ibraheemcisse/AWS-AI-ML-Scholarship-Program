@@ -37,8 +37,6 @@ Bot: Hi there! Thanks for reaching out to TechGadget. What can I help you with?
 Are you looking for product information, order support, or technical help?
 ```
 
-![Architecture Diagram](./chatbot-architecture.png)
-*Chatbot architecture and flow diagram*
 
 ## 🏗️ Architecture
 
