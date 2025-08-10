@@ -21,7 +21,7 @@ This enhanced version transforms a basic machine learning tutorial into a produc
 
 ### Source Code
 
-[See code](./Source code for Enhanced Building Energy Efficiency Prediction with Random Forest)
+[See code](./Source%20code%20for%20Enhanced%20Building%20Energy%20Efficiency%20Prediction%20with%20Random%20Forest)
 
 ## 🚀 What's New in the Enhanced Version
 
