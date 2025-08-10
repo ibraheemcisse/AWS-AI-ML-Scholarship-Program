@@ -1,6 +1,6 @@
 # Nomad AI Concierge – Travel Planner & Visa Advisor (PartyRock App)
 
-Nomad AI Concierge is an **AI-powered travel assistant** tailored for backpackers and digital nomads. It helps craft personalized itineraries, shed light on visa requirements, highlight hidden local events, and assist with budget tracking—all via a JSON-driven UI.
+Nomad AI Concierge is an **AI-powered travel assistant** tailored for backpackers and digital nomads. It helps craft personalized itineraries, shed light on visa requirements, highlight hidden local events, and assist with budget tracking all via a JSON-driven UI.
 
 ---
 
