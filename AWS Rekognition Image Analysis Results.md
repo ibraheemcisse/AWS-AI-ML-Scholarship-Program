@@ -44,6 +44,8 @@ This page contains the results from AWS Rekognition's **label detection** featur
 ### Understanding the Output:
 The image appears to show a crowded urban scene with multiple people. AWS Rekognition detected **24 individual people** in the image along with various clothing items, accessories, and environmental elements. The high confidence scores (many above 95%) indicate the AI is very certain about these detections.
 
+![Alt text](AWS-AI-ML-Scholarship-Program/dane-deaner-BVLVJ6YErSc-unsplash.jpg)
+
 ### Top Detection Results (>90% Confidence)
 | Label | Confidence | Category |
 |-------|------------|----------|
