@@ -18,7 +18,7 @@ It is part of a larger AI-powered property management system, which can include 
 ---
 
 ## How to Use
-1. Open [AWS PartyRock](https://partyrock.aws/).
+1. Open [AWS PartyRock](https://partyrock.aws](https://partyrock.aws/u/Ibrahimcisse/1g3K1xPdG/PropAI-Manager)/).
 2. Click **Import App**.
 3. Copy and paste the JSON below into the importer.
 4. Test with your own tenant data or the example provided.
