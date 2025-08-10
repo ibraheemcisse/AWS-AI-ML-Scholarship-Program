@@ -76,22 +76,5 @@ Edit
     "version": "0.1.0"
   }
 }
-License
-MIT
-
-yaml
-Copy
-Edit
-
----
-
-If you want, I can also make a **matching one-page markdown** for each module so you end up with four self-contained PartyRock app files. That way the whole property management system is modular.
 
 
-
-
-
-
-
-
-Ask ChatGPT
