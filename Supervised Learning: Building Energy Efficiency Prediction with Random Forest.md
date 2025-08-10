@@ -19,6 +19,9 @@ This enhanced version transforms a basic machine learning tutorial into a produc
 - **📈 Uncertainty Quantification**: Bootstrap-based confidence intervals for predictions
 - **🏗️ Production-Ready**: Object-oriented design with proper error handling
 
+### Source Code
+
+[See code](./Source code for Enhanced Building Energy Efficiency Prediction with Random Forest)
 
 ## 🚀 What's New in the Enhanced Version
 
