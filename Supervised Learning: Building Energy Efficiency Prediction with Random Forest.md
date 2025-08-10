@@ -33,39 +33,49 @@ https://learn.microsoft.com/en-us/windows/wsl/install
 ### 2. Launch Ubuntu WSL Terminal
 
 ### 3. Update system packages
+
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
 
-4. Install Python, pip, and virtual environment tools
+### 4. Install Python, pip, and virtual environment tools
 
 ```bash
 sudo apt install python3 python3-pip python3-venv -y
+```
 
-5. Create and activate a Python virtual environment
+### 5. Create and activate a Python virtual environment
 This isolates your Python setup and avoids conflicts.
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
-Installing Required Packages
+
+### Installing Required Packages
 Within the activated virtual environment, install all needed packages:
 
 ```bash
 pip install jupyter pandas numpy matplotlib seaborn scikit-learn
+```
 
-Running Jupyter Notebook
+### Running Jupyter Notebook
 1. Start Jupyter Notebook server from WSL
 
 ```bash
 jupyter notebook --allow-root --no-browser --ip=0.0.0.0
+```
 
-2. Copy the URL with the token shown in the terminal output, for example:
+
+### 2. Copy the URL with the token shown in the terminal output, for example:
 
 ```bash
 http://127.0.0.1:8888/?token=abc123def456...
+```
 
-3. Open that URL in your Windows web browser to access the Jupyter interface.
+
+### 3. Open that URL in your Windows web browser to access the Jupyter interface.
 
 Project Code
 Copy and paste the entire code below into a new notebook cell and run it:
@@ -135,34 +145,39 @@ plt.barh(range(len(indices)), importances[indices], align='center')
 plt.yticks(range(len(indices)), [features[i] for i in indices])
 plt.xlabel('Relative Importance')
 plt.show()
+```
 
-Common Issues and Solutions
+
+### Common Issues and Solutions
 Issue 1: ModuleNotFoundError for packages like pandas or seaborn
 You likely installed packages outside the virtual environment used by Jupyter.
 
 Solution: Activate the same virtual environment used to launch Jupyter, then run:
 
-bash
-Copy
-Edit
+```bash
 pip install pandas seaborn
+```
+
 Restart your Jupyter kernel after installation.
 
-Issue 2: Jupyter refuses to run due to root user warning
+### Issue 2: Jupyter refuses to run due to root user warning
 Cause: Running WSL as root.
 
 Solution: Add --allow-root flag:
 
-bash
-Copy
-Edit
+```bash
 jupyter notebook --allow-root --no-browser --ip=0.0.0.0
-Issue 3: Cannot access Jupyter URL from Windows browser
+```
+
+### Issue 3: Cannot access Jupyter URL from Windows browser
 Make sure you copy the full URL with the token from WSL terminal.
 
+```
 Use http://127.0.0.1:8888/?token=... URL for best compatibility.
+```
 
-Issue 4: Need to run installations but terminal is occupied by Jupyter
+
+### Issue 4: Need to run installations but terminal is occupied by Jupyter
 Keep two terminals open:
 
 One running Jupyter server
@@ -184,11 +199,7 @@ Consider using JupyterLab (jupyter lab) for a richer interface.
 
 For large datasets, explore model tuning and cross-validation for better accuracy.
 
-Summary
+### Summary
 This guide walks you through setting up a Python data science environment on Ubuntu WSL, running Jupyter notebooks, installing packages, writing and running a Random Forest regression model, visualizing data, and troubleshooting common issues.
 
 If you follow these steps carefully, even without prior Python or Jupyter experience, you will be able to replicate and extend this project seamlessly.
-
-
-
-
